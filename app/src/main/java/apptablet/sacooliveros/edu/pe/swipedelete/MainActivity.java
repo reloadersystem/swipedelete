@@ -50,12 +50,12 @@ public class MainActivity extends AppCompatActivity  implements  RecyclerItemTou
     {
         ArrayList<Coche> arrayListCoches= new ArrayList<>();
 
-        arrayListCoches.add(new Coche(R.drawable.mclaren_p1, "McLAren P1"));
-        arrayListCoches.add(new Coche(R.drawable.bugatti_chiron, "Bugatti Chiron"));
-        arrayListCoches.add(new Coche(R.drawable.ferrari_f12, "Ferrari F12 Novitec Rosso"));
-        arrayListCoches.add(new Coche(R.drawable.lamborghini_aventador_sv, "Lamborghini Aventador SV"));
-        arrayListCoches.add(new Coche(R.drawable.koenigsegg_agera_xs, "Koenigsegg Agera Xs"));
-        arrayListCoches.add(new Coche(R.drawable.zonda_pagani, "Pagani Zonda Fantasma"));
+        arrayListCoches.add(new Coche(R.drawable.a_1, "Compendios-Tomo1-Algebra.pdf"));
+        arrayListCoches.add(new Coche(R.drawable.a_2, "Compendios-Tomo2-Física.pdf"));
+        arrayListCoches.add(new Coche(R.drawable.a_3, "Hélico Diapositivas-Tomo1-Algebra.pdf"));
+        arrayListCoches.add(new Coche(R.drawable.a_4, "Hélico Diapositivas-Tomo1-Química.pdf"));
+        arrayListCoches.add(new Coche(R.drawable.a_5, "Problemas Propuestos-Mes1-Algebra.pdf"));
+        arrayListCoches.add(new Coche(R.drawable.a_6, "Computación-Tomo2.pdf"));
 
         return arrayListCoches;
 
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity  implements  RecyclerItemTou
             }
         });
 
-        snackbar.setActionTextColor(Color.GREEN);
+        snackbar.setActionTextColor(Color.WHITE);
         snackbar.show();
 
 
